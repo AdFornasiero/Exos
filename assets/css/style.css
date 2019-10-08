@@ -1,0 +1,55 @@
+.valign-wrapper{
+	 width:100%;
+	 height:50%;
+	 position:absolute;
+}
+
+.centered{
+	margin: 0 auto;
+}
+
+.collapsible-header{
+	padding: 0;
+	border: none ;
+}
+
+.collapsible-body{
+	padding: 0px;
+}
+
+.active{
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12), 6px 4px 12px rgba(0,0,0,0.15) !important;
+}
+
+.iconSize{
+	font-size: 48px !important;
+	color: #2d3e9c;
+}
+
+pre{
+	margin: 0;
+}
+
+.title{
+	margin-left: 2rem;
+	font-style: italic;
+	font-weight: 500;
+}
+
+.dropdown-content li a{
+	color: #3f51b5 !important;
+	font-weight: 480;
+}
+
+.mobileSubtitle{
+	margin-top: 2rem;
+	margin-left: 1.9rem;
+	font-size: 1.6rem;
+	color: #513fb5;
+	font-weight: 700;
+	font-style: italic;
+}
+
+.mobileList{
+	padding-left: 4.2rem !important;
+}
