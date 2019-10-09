@@ -30,8 +30,6 @@
         $msg = $date." est valide.";
     }
 
-    echo $msg;
-
                         </code></pre>
                     </div>        
                 </li>

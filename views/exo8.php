@@ -23,8 +23,6 @@
     $date->setTimestamp(time());
     $date->add(new DateInterval("P1M"));
 
-    echo $date;
-
                         </code></pre>
                     </div>        
                 </li>

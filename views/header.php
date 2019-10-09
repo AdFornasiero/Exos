@@ -11,6 +11,7 @@
       rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../assets/css/hljs.css">
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +30,7 @@
         </ul>
             <!-- Dropdown Structure -->
         <ul id="filesDropdown" class="dropdown-content ">
-          <li><a href="exo1.php"></a></li>
+          <li><a href="exoFichiers.php">Fichiers</a></li>
         </ul>
         <nav>
             <div class="nav-wrapper indigo" id="navbar">

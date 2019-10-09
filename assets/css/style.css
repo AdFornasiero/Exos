@@ -53,3 +53,17 @@ pre{
 .mobileList{
 	padding-left: 4.2rem !important;
 }
+
+.fileContent{
+	position: absolute;
+	top: 22px;
+	left: 64px;
+	font-style: italic;
+	font-size: 1.6rem;
+	font-family: "Roboto";
+	
+}
+
+.imgContainer{
+	position: relative;
+}

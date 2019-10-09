@@ -23,8 +23,6 @@
     $date->setTimestamp(time());
     $heure = $date->format("H\hi");
 
-    echo $heure;
-
                         </code></pre>
                     </div>        
                 </li>
