@@ -67,3 +67,60 @@ pre{
 .imgContainer{
 	position: relative;
 }
+
+.showDir ul, .showDir li {
+     position: relative;
+}
+
+.showDir ul {
+    list-style: none;
+    padding-left: 16px;
+}
+
+.showDir li::before, .showDir li::after {
+    content: "";
+    position: absolute;
+    left: -10px;
+}
+
+.showDir
+ li::before {
+    border-top: 1px solid #c4c4c4;
+    top: 9px;
+    width: 8px;
+    height: 0;
+}
+
+.showDir
+ li::after {
+    border-left: 1px solid #c4c4c4;
+    height: 100%;
+    width: 0px;
+    top: 2px;
+}
+
+.filenames{
+	vertical-align: top;
+}
+
+.showDir li:last-of-type{
+	border: none;
+}
+
+.showDir{
+	padding-top: 1px;
+	padding-bottom: 1px;
+	background-color: #fffdf7;
+	box-shadow: inset 0 2px 2px 0 rgba(0,0,0,0.14),
+				inset 0 3px 1px -2px rgba(0,0,0,0.12),
+				inset 0 1px 5px 0 rgba(0,0,0,0.2)
+}
+
+.showDir .material-icons{
+	margin-right: 0.2rem;
+	/*font-size: 1.2rem;*/
+}
+
+h6{
+	font-weight: 480;
+}

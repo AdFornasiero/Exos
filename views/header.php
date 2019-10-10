@@ -16,7 +16,6 @@
 
 <body>
     <header>
-
         <!-- Dropdown Structure -->
         <ul id="datesDropdown" class="dropdown-content ">
           <li><a href="exo1.php">Exercice 1</a></li>
@@ -28,16 +27,15 @@
           <li><a href="exo7.php">Exercice 7</a></li>
           <li><a href="exo8.php">Exercice 8</a></li>
         </ul>
-            <!-- Dropdown Structure -->
-        <ul id="filesDropdown" class="dropdown-content ">
-          <li><a href="exoFichiers.php">Fichiers</a></li>
+
         </ul>
         <nav>
             <div class="nav-wrapper indigo" id="navbar">
                 <a href="" class="brand-logo title">Exercices PHP</a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a class="dropdown-trigger" href="" data-target="datesDropdown">Dates<i class="material-icons right">arrow_drop_down</i></a></li>
-                    <li><a class="dropdown-trigger" href="" data-target="filesDropdown">Fichiers<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li><a href="exoFichiers.php">Fichiers</a></li>
+                    <li><a href="exoSession.php">Sessions</a></li>
                 </ul>
                 <a href="" data-target="mobileNavbar" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
                 
