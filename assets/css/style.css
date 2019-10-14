@@ -124,3 +124,9 @@ pre{
 h6{
 	font-weight: 480;
 }
+
+.errorSpan{
+	font-size: 0.8rem;
+	color: red;
+	font-style: italic;
+}
